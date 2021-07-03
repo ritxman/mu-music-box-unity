@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &143682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 474150}
+  - 114: {fileID: 11400334}
+  - 82: {fileID: 8291906}
+  - 114: {fileID: 11420738}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &474150
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.565758348, y: -.19577311, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &8291906
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143682}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8ce07c65d6183ce4a9af39d3921b7518, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 205
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &11400334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874c5c0c7264004a8f4c4c359d2af43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  judgePerfect: {fileID: 0}
+  judgeGreat: {fileID: 0}
+  judgeBad: {fileID: 0}
+  judgeMiss: {fileID: 0}
+  speed: 138
+  backgroundDanger: {fileID: 0}
+  maxmonster: 3
+  HPMu: {fileID: 0}
+  HPMonster: {fileID: 0}
+  feverGauge: {fileID: 0}
+  barFeverMax: {fileID: 0}
+  textComboGameObject: {fileID: 0}
+  textNilaiComboGameObject: {fileID: 0}
+  muDamaged: {fileID: 0}
+  muAttack1: {fileID: 0}
+  muAttack2: {fileID: 0}
+  monster:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  iconFever: {fileID: 0}
+  whiteCircle: {fileID: 0}
+  x2: {fileID: 0}
+  boxPointer: {fileID: 0}
+  damagePointMonsterText: {fileID: 0}
+  damagePointMuText: {fileID: 0}
+  scoreText: {fileID: 0}
+  comboText: {fileID: 0}
+  comboText2: {fileID: 0}
+  HPMuPointText: {fileID: 0}
+  extraPointText: {fileID: 0}
+  textAllPerfect: {fileID: 0}
+  upArrow: {fileID: 0}
+  downArrow: {fileID: 0}
+  canvasGameplay: {fileID: 0}
+  blackBox: {fileID: 0}
+  HPMuPunya: {fileID: 0}
+  HPMonsterPunya: {fileID: 0}
+  DamagePoint: {fileID: 0}
+  DamagePointMu: {fileID: 0}
+  musicBoxAnimasi: {fileID: 0}
+  feverGaugeAnimasi: {fileID: 0}
+  baloonText: {fileID: 0}
+  tutorialText: {fileID: 0}
+  triggerTutorialAttack: 0
+--- !u!114 &11420738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143682}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38631be2eac88194cb6d1a444e6ac8dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  togglerespawnnote: 0
+  bpm: 138
+  gain: .5
+  signatureHi: 4
+  signatureLo: 4
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 143682}
+  m_IsPrefabParent: 1

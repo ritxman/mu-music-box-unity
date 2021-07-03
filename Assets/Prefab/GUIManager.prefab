@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &135650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 482450}
+  - 114: {fileID: 11427230}
+  m_Layer: 0
+  m_Name: GUIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482450
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 64.7154846, y: 2.15138793, z: .015625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11427230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1442ca5d64bb9458de5ccb07e0b012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fonttext: {fileID: 0}
+  analog2: {fileID: 2800000, guid: 631c2115c4f6639458f0cef9fb2316f2, type: 3}
+  analog1: {fileID: 2800000, guid: 543e0d41a92db3643ba0085d4d37ff8f, type: 3}
+  talkbuttonTexture: {fileID: 2800000, guid: 0cb29cf039ccb8f4eadb738c6aa30300, type: 3}
+  menucontainerTexture: {fileID: 2800000, guid: 2d58591636080b1458b7a809e8a174d8,
+    type: 3}
+  whitecontainerTexture: {fileID: 2800000, guid: 9759abaf56e4d0546940e2cf8d241244,
+    type: 3}
+  bagbuttonTexture: {fileID: 2800000, guid: 1c190ef03950a944d8b148e26720834e, type: 3}
+  statusbuttonTexture: {fileID: 2800000, guid: dcdd84bf0423cf8498a30fdfbfabd137, type: 3}
+  questbuttonTexture: {fileID: 2800000, guid: 6d1602ca3d18ee1499aad2d7f6183676, type: 3}
+  optionbuttonTexture: {fileID: 2800000, guid: b5e8fde3fec8140428d0ce5b0bbb2898, type: 3}
+  exitbuttonTexture: {fileID: 2800000, guid: a124322323ec6d548b719bd80a833da9, type: 3}
+  GambarMuTexture: {fileID: 2800000, guid: d690be8319782eb4486a306f6a225563, type: 3}
+  TulisanMuTexture: {fileID: 2800000, guid: 733834ca47870f24eaad6c47531cf175, type: 3}
+  goButtonTexture: {fileID: 2800000, guid: 5904b7c316ffc614cb69203b64446be8, type: 3}
+  shopButtonTexture: {fileID: 2800000, guid: 0e7331aecf170284aa9ba47c33511052, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 135650}
+  m_IsPrefabParent: 1
