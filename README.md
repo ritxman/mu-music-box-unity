@@ -11,4 +11,6 @@ Mobile rhythm game with RPG and story elements, made for thesis purpose.<br/><br
 <h1>Credits</h1>
 Game Programmer: Ritxman<br/>
 Graphic Designer: Leyonie Natasha<br/>
-Game Designer: Tiffani<br/>
+Game Designer: Tiffani<br/><br/>
+
+Copyright © 2015-2021 All Rights Reserved
