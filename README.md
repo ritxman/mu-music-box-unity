@@ -13,4 +13,4 @@ Game Programmer: Ritxman<br/>
 Graphic Designer: Leyonie Natasha<br/>
 Game Designer: Tiffani<br/><br/>
 
-Copyright © 2015-2021 All Rights Reserved
+Copyright © 2015-2021 Mu's Music Box Team. All Rights Reserved
